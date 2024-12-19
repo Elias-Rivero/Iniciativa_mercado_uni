@@ -1,0 +1,21 @@
+.img-cafeteria{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.Menu{
+    padding: 5px;
+    border: 30px;
+    display: block;
+    background-color: aliceblue;
+}
+
+.img-productosTienda{
+    height: 100%;
+    width: 20%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}

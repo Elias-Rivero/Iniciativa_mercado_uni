@@ -1,0 +1,122 @@
+h1 {
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 45px;
+    padding-top: 12px;
+}
+.Encabezado{
+    text-decoration-color: azure;
+    background-image: url(/Img/fondoinicio.png);
+    background-size:contain;
+    padding: 40px;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+}
+body{
+    margin: 0px;
+    width: auto;
+    background-color: rgb(255, 236, 188);
+}
+.Contenedor{
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    display: inline-block;
+
+}
+
+.Elementos{ 
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+.Elementos_tienda{ 
+    height: 200px;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    display: -ms-inline-grid;
+    border-radius: 10px;
+}
+
+.Nombre{
+    position: absolute;
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+    width: auto;}
+
+.Link{
+    background-color: burlywood;
+    border-radius: 25px;
+    padding: 10px;
+    color:brown;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;
+    user-select: none;
+}
+
+.BarraProducto{
+    width: 100%;
+    display: list-item;
+    background-color: darksalmon;
+    border-radius: 25px;
+    user-select: none;
+}
+
+.MenuBar{
+    height: 100%;
+    position: absolute;
+    max-width: 25%;
+    width: 200px;   
+    display: none;
+    z-index: 100;
+    background-color: bisque;
+    color: brown;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: 0px;
+    user-select: none;
+}
+
+.Item{
+    font-size: 25;
+    font-family:cursive ;
+    line-height: 3;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.CloseBot{
+    margin-left: 180px;
+    font-family: cursive;
+    font-size: xx-large;
+    text-decoration: none;
+    color: brown;
+    display: block;
+}
+.MenuProductos {
+    border-bottom-color: black;
+    border: 2;
+    border-top-color: black;
+}
+.MenuProductos{
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 2;
+    color:brown;
+    text-align: left;
+}

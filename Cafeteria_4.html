@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/Propiedades_texto.css">
+    <link rel="stylesheet" href="css/Imagenes.css">
+    <title>Pizzeria</title>
+</head>
+<body>
+    <section >
+        <ul class="MenuBar" id="Menu">
+            <a onclick="CloseNav()" href="javascript:void(1)" class="CloseBot">X</a>
+            <a href="Trabajo_web.html"><li class="Item">Home</li></a>
+            <li class="Item">Mejores Ofertas</li>
+            <li class="Item">Contactenos</li>
+            <li class="Item">Ayuda</li>
+        </ul>
+    </section>
+    <div class="Encabezado">
+        <h1>Pizzeria</h1>
+        <a onclick="Open()" href="javascript:void(0)" class="Link" id="BotMenu">MENU</a>
+    </div>
+    
+    <div class="Contenedor">
+       <ol class="MenuProductos">
+        <li >Pizza de Queso</li>
+        <li>Pizza de Salchichi</li>
+        <li>Pizza de Jamon</li>
+        <li>Refresco</li>
+       </ol>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        function Open(){
+            document.getElementById("Menu").style.display = "block";
+        }
+        function CloseNav(){
+            document.getElementById("Menu").style.display = "none"
+        }
+    </script>
+</html>
